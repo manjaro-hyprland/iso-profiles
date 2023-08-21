@@ -2,9 +2,9 @@
 vt = "next"
 
 [default_session]
-command = "tuigreet --remember --time --issue --asterisks --cmd sway"
+command = "tuigreet --remember --time --issue --asterisks --cmd Hyprland"
 user = "greeter"
  
 [initial_session]
-command = "sway"
+command = "Hyprland"
 user = "manjaro"

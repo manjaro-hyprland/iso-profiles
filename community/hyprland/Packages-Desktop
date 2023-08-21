@@ -1,10 +1,10 @@
-# Manjaro Sway
+# Manjaro Hyprland
 
 ## Base
 
-manjaro-sway/manjaro-sway-settings
+manjaro-hyprland/manjaro-hyprland-settings
 
-## Sway Extras
+## Hyprland Extras
 
 swaybg # background switcher
 >extra flashfocus # nicer flashing on focus change
