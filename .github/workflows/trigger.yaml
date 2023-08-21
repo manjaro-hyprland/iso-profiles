@@ -1,7 +1,7 @@
 name: trigger
 on: 
   push:
-    branches: [sway]
+    branches: [hyprland]
 
 env:
   UPSTREAM_GIT: https://gitlab.manjaro.org/profiles-and-settings/iso-profiles.git
@@ -26,12 +26,12 @@ jobs:
       name: rebase
       run: |
         git config --global user.name "Repo Update Bot"
-        git config --global user.email "info@manjaro-sway.download"
+        git config --global user.email "info@manjaro-hyprland.download"
         git pull --rebase upstream ${BASE_BRANCH}
         git push --force-with-lease
     - 
       uses: peter-evans/repository-dispatch@v2
       with:
         token: ${{ secrets.DISPATCH_TOKEN }}
-        repository: manjaro-sway/manjaro-sway
+        repository: manjaro-hyprland/manjaro-hyprland
         event-type: iso_profile_update
