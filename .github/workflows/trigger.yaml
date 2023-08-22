@@ -27,7 +27,7 @@ jobs:
       name: rebase
       run: |
         git config --global user.name "Repo Update Bot"
-        git config --global user.email "info@manjaro-hyprland.download"
+        git config --global user.email "info@manjaro-hyprland.timesavior.io"
         git pull --rebase upstream ${BASE_BRANCH}
         git push --force-with-lease
     - 
