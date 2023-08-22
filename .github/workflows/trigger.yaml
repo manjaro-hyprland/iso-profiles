@@ -1,5 +1,6 @@
 name: trigger
 on: 
+  workflow_dispatch:
   push:
     branches: [hyprland]
 
