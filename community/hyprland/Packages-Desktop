@@ -23,10 +23,8 @@ xorg-xwayland # xorg-wayland bridge
 qt5-wayland
 qt6-wayland
 gnome-keyring # unlock keyring on login
-polkit-gnome # polkit for visual superuser access
 polkit-kde-agent # polkit for visual superuser access
 >extra xdg-desktop-portal-hyprland
->extra xdg-desktop-portal-wlr
 manjaro-pipewire
 
 ## Btrfs
